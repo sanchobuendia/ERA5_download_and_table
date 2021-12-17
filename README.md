@@ -6,6 +6,16 @@
  * Using the toolbox-editor 
  * Directly using python or R
  
+    Para fazer o download é necessário seguir os passos 
+    
+    https://cds.climate.copernicus.eu/api-how-to
+    
+    o arquivo deve ter a seguinte
+    
+    url:https://cds.climate.copernicus.eu/api/v2
+    key: ????:212b1cbf-????-4b60-????-b7a0265b8a7f
+    verify: 0
+ 
 ## Using Toolbox
 
 import cdstoolbox as ct

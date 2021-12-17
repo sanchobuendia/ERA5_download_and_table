@@ -1,0 +1,8 @@
+url = 'url: https://cds.climate.copernicus.eu/api/v2'
+key: {6382}:{212b1cbf-b8cf-4b60-93f9-b7a0265b8a7f}
+
+with open('/root/.cdsapirc', 'w') as f:
+    f.write('\n'.join([url, key]))
+
+with open('/root/.cdsapirc') as f:
+    print(f.read())
